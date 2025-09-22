@@ -1,0 +1,31 @@
+package pekan2;
+
+public class TugasPrakalproPekan2 {
+
+	public static void main(String[] args) {
+		// Tipe data int untuk jumlah stok baju
+		  int stok = 12;
+	// Tipe data float untuk harga
+		  float harga = 99999.9f;
+		  // Tipe data char untuk ukuran baju ( S,M,L,XL )
+		  char ukuran = 'M';
+	// Tipe data boolean untuk status keserdiaan baju
+		  boolean tersedia = stok > 0; // Jika stok lebih dari 0, maka tersedia
+
+	System.out.println("Persediaan baju online");
+	System.out.println("Ukuran baju = " + ukuran);
+	System.out.println("Harga baru = Rp " + harga);
+	System.out.println("Jumlah stok = " + stok);
+	System.out.println("Status ketersediaan = " + tersedia);
+	
+	int jumlahBeli = 3;
+	if (tersedia & jumlahBeli <= stok ) {
+		System.out.println("Pembelian berhasil");
+		}
+	else {
+			System.out.println("Pembelian gagal");
+		}
+	
+	}
+
+}
