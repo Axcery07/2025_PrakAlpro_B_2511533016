@@ -28,7 +28,7 @@ public class OperasiAritmatikaq {
 		System.out.println("Hasil = " + hasil);
 		System.out.println("Operasi sisa bagi");
 		hasil = A1 % A2;// Sisa bagi
-		System.out.println("Hasil = " + hasil);
+		System.out.println("Hasil = " + hasil);//
 		
 		
 		

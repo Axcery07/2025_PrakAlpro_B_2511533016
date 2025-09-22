@@ -28,7 +28,7 @@ public class OperasiAssigment {
 		System.out.println("Pembagian : " + A1);
 		System.out.println("Assigment sisa bagi");
 		A1 %= A2;// Sisa bagi sekarang A1 = 0
-		System.out.println("Sisa bagi : " + A1);
+		System.out.println("Sisa bagi : " + A1);//
 
 	}
 

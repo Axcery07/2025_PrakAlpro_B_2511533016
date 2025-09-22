@@ -25,7 +25,7 @@ public class OperasiLogika {
 		System.out.println("Nagasi");
 		c = !A1;
 		System.out.println("Bukan true " + c);
-		
+		//
 		
 		
 	}
